@@ -1,3 +1,4 @@
+* v0.1.0.8 - small tweaks for github, mavenizsation!
 * v0.1.0.7 - support instant detonation (power -1)
 * v0.1.0.4 - derp fix
 * v0.1.0.3 - code cleanup
