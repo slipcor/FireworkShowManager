@@ -1,0 +1,14 @@
+* v0.1.0.7 - support instant detonation (power -1)
+* v0.1.0.4 - derp fix
+* v0.1.0.3 - code cleanup
+* v0.1.0.2 - fix NPEs if you didn't set fireworks/spawns
+* v0.1.0.1 - add configurable firework power
+* v0.1.0.0 - all commands operational
+* v0.0.5.0 - main timer calculations
+* v0.0.4.0 - beat and heartBeat added
+* v0.0.3.0 - start command operational
+* v0.0.2.0 - command implementation
+* v0.0.1.0 - command structure
+* v0.0.0.3 - a default string can be set by command
+* v0.0.0.2 - spawn fireworks by right clicking
+* v0.0.0.1 - basic fireworks can be spawned (API)

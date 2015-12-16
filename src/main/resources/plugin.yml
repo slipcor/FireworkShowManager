@@ -1,0 +1,34 @@
+name: FireworkShowManager
+main: net.slipcor.fsm.FireworkShowPlugin
+version: v0.1.0.8
+commands:
+    fwfw:
+        description: Fireworkshow Manager Firework Commands
+        usage: |
+           /<command> [string] - add the firework effect to the current time
+        permission: fwsm.admin
+    fws:
+        description: General Fireworkshow Manager Commands
+        usage: |
+           /<command> time [hour] - the starting hour time (18=6pm)
+           /<command> duration [intervals] - the interval count
+           /<command> interval [ticks] - the interval duration in ticks
+           /<command> biginterval [seconds] - the SHOW interval
+        permission: fwsm.admin
+    fwsm:
+        description: Fireworkshow Manager Moderation Commands
+        usage: |
+           /<command> test - start the show just for fun
+           /<command> start - start the show timer
+           /<command> stop - stop any running show
+           /<command> fullstop - stop the main timer
+        permission: fwsm.admin
+    fwss:
+        description: Fireworkshow Manager Setup Commands
+        usage: |
+           /<command> [n] - set spawn points for nth interval
+        permission: fwsm.admin
+permissions:
+    fwsm.admin:
+        description: Allows you to administrate firework shows
+        default: op
